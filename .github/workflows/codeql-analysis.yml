@@ -54,6 +54,8 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: sarif-output
-        path: /home/runner/work/BenchmarkJava/BenchmarkJava/reports/java.sarif
+        path: |
+          /home/runner/work/BenchmarkJava/BenchmarkJava/reports/java.sarif
+          /home/runner/work/BenchmarkJava/BenchmarkJava/reports/javascript.sarif
       
       
