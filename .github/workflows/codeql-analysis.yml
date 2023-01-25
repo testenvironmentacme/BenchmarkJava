@@ -48,6 +48,12 @@ jobs:
       with:
         output:
           "reports"
-
+      
+     
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: sarif-output
+        path: /home/runner/work/BenchmarkJava/BenchmarkJava/reports/java.sarif
       
       
