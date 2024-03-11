@@ -53,6 +53,7 @@ public class BenchmarkTest00016 extends HttpServlet {
 
         byte[] input = new byte[1000];
         String str = "?";
+        String password = "1235619pass";
         Object inputParam = param;
         if (inputParam instanceof String) str = ((String) inputParam);
         if (inputParam instanceof java.io.InputStream) {
